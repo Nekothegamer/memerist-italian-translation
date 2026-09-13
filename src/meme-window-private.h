@@ -115,6 +115,49 @@ void apply_zoom(MemeWindow *self);
 void update_template_image(MemeWindow *self, GdkPixbuf *new_pixbuf);
 void update_undo_redo_sensitivity(MemeWindow *self);
 
+/* meme-window-canvas.c */
+void     on_deep_fry_toggled (GtkToggleButton *btn, MemeWindow *self);
+void     on_zoom_in_clicked (MemeWindow *self);
+void     on_zoom_out_clicked (MemeWindow *self);
+gboolean on_canvas_scroll (GtkEventControllerScroll *ctrl, double dx, double dy, MemeWindow *self);
+
+/* meme-window-layers.c */
+void on_color_changed (GObject *object, GParamSpec *pspec, MemeWindow *self);
+void on_text_changed (MemeWindow *self);
+void on_layer_text_changed (MemeWindow *self);
+void on_add_text_clicked (MemeWindow *self);
+void on_font_changed (GObject *object, GParamSpec *pspec, MemeWindow *self);
+void on_layer_control_changed (MemeWindow *self);
+void on_delete_layer_clicked (MemeWindow *self);
+
+/* meme-window-crop.c */
+void     draw_crop_overlay (GtkDrawingArea *area, cairo_t *cr, int width, int height, gpointer user_data);
+void     on_rotate_clicked (GtkWidget *btn, MemeWindow *self);
+void     on_flip_clicked (GtkWidget *btn, MemeWindow *self);
+void     on_crop_preset_clicked (GtkWidget *btn, MemeWindow *self);
+void     update_footer_pages (MemeWindow *self);
+void     on_exit_text_editing_clicked (MemeWindow *self);
+void     on_crop_mode_toggled (GtkToggleButton *btn, MemeWindow *self);
+void     on_draw_mode_toggled (GtkToggleButton *btn, MemeWindow *self);
+void     on_exit_draw_editing_clicked (MemeWindow *self);
+void     on_draw_color_changed (GObject *object, GParamSpec *pspec, MemeWindow *self);
+void     on_draw_width_changed (MemeWindow *self);
+void     on_cancel_crop_clicked (MemeWindow *self);
+void     on_apply_crop_clicked (MemeWindow *self);
+
+/* meme-window-templates.c */
+void  on_open_template_window_clicked (MemeWindow *self);
+void  populate_template_gallery (MemeWindow *self);
+void  update_restore_templates_sensitivity (MemeWindow *self);
+void  on_import_template_clicked (MemeWindow *self);
+void  on_delete_template_clicked (MemeWindow *self);
+void  on_select_all_clicked (MemeWindow *self);
+void  on_restore_templates_clicked (MemeWindow *self);
+void  on_select_mode_clicked (MemeWindow *self);
+void  on_template_selected (GtkFlowBox *flowbox, GtkFlowBoxChild *child, MemeWindow *self);
+void  on_template_selection_changed (GtkFlowBox *flowbox, MemeWindow *self);
+gint  sort_templates_by_mtime (GtkFlowBoxChild *child1, GtkFlowBoxChild *child2, gpointer user_data);
+
 GArray  *meme_gif_decode_frames (const char *path);
 void     meme_gif_frames_free (GArray *frames);
 void     meme_window_start_gif_animation (MemeWindow *self);
