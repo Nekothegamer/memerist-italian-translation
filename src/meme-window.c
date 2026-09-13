@@ -372,8 +372,8 @@ void sync_ui_with_layer(MemeWindow *self) {
     g_signal_handlers_block_by_func(self->layer_font_size, on_layer_text_changed, self);
 
     if (sensitive) {
-        gtk_range_set_value(GTK_RANGE(self->layer_opacity_scale), self->selected_layer->opacity);
-        gtk_range_set_value(GTK_RANGE(self->layer_rotation_scale), self->selected_layer->rotation);
+        gtk_spin_button_set_value(self->layer_opacity_scale, self->selected_layer->opacity);
+        gtk_spin_button_set_value(self->layer_rotation_scale, self->selected_layer->rotation);
         adw_combo_row_set_selected(self->blend_mode_row, self->selected_layer->blend_mode);
         if (is_text) {
             gtk_text_buffer_set_text(buffer, self->selected_layer->text ? self->selected_layer->text : "", -1);
@@ -420,8 +420,8 @@ void sync_ui_with_layer(MemeWindow *self) {
 
 static void on_layer_control_changed (MemeWindow *self) {
     if (self->selected_layer) {
-        self->selected_layer->opacity = gtk_range_get_value(GTK_RANGE(self->layer_opacity_scale));
-        self->selected_layer->rotation = gtk_range_get_value(GTK_RANGE(self->layer_rotation_scale));
+        self->selected_layer->opacity = gtk_spin_button_get_value(self->layer_opacity_scale);
+        self->selected_layer->rotation = gtk_spin_button_get_value(self->layer_rotation_scale);
         self->selected_layer->blend_mode = (BlendMode)adw_combo_row_get_selected(self->blend_mode_row);
         render_meme(self);
     }

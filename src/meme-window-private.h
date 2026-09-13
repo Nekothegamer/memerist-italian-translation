@@ -42,7 +42,7 @@ struct _MemeWindow {
     AdwDialog *template_window;
     GSettings *template_settings;
     GtkMenuButton *global_filters_button;
-    GtkScale *layer_opacity_scale, *layer_rotation_scale;
+    GtkSpinButton *layer_opacity_scale, *layer_rotation_scale;
     AdwComboRow *blend_mode_row;
     GtkButton *delete_layer_button;
     GtkButton *rotate_left_button, *rotate_right_button, *flip_h_button, *flip_v_button;

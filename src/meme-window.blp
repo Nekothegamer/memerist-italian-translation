@@ -925,12 +925,12 @@ template $MemeWindow: Adw.ApplicationWindow {
                 title: _("Opacity");
 
                 [suffix]
-                Scale layer_opacity_scale {
+                SpinButton layer_opacity_scale {
                   valign: center;
-                  hexpand: true;
                   sensitive: false;
-                  width-request: 150;
-                  draw-value: true;
+                  numeric: true;
+                  digits: 2;
+                  climb-rate: 0.1;
 
                   adjustment: Adjustment {
                     lower: 0.0;
@@ -945,12 +945,12 @@ template $MemeWindow: Adw.ApplicationWindow {
                 title: _("Rotation");
 
                 [suffix]
-                Scale layer_rotation_scale {
+                SpinButton layer_rotation_scale {
                   valign: center;
-                  hexpand: true;
                   sensitive: false;
-                  width-request: 150;
-                  draw-value: false;
+                  numeric: true;
+                  digits: 2;
+                  climb-rate: 0.1;
 
                   adjustment: Adjustment {
                     lower: 0.0;
