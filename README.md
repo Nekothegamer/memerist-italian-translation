@@ -29,7 +29,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
-This project is open source. See the [LICENSE](LICENSE) file for details.
+This project is open source. See the [COPYING](COPYING) file for details.
 
 ## Acknowledgments
 
