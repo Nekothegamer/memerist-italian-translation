@@ -65,31 +65,55 @@
     <screenshots>
         <screenshot type="default">
             <caption>Main window</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot1.png</image>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc1.png</image>
         </screenshot>
         <screenshot>
-            <caption>Import from Meme Gallery</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot2.png</image>
+            <caption>Live Preview</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc2.png</image>
         </screenshot>
         <screenshot>
             <caption>Crop</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot3.png</image>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc3.png</image>
         </screenshot>
         <screenshot>
-            <caption>Memerist in Narrow Window</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot4.png</image>
+            <caption>Draw</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc4.png</image>
         </screenshot>
         <screenshot>
-            <caption>Crop in Narrow Window</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot5.png</image>
+            <caption>Built in Templates</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc5.png</image>
         </screenshot>
         <screenshot>
-            <caption>Text Layers in Narrow Window</caption>
-            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/uploads/screenshot6.png</image>
+            <caption>Narrow Window</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc6.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Template Narrow Window</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc7.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Crop Narrow Window</caption>
+            <image>https://raw.githubusercontent.com/vani-tty1/vani-tty1.github.io/main/public/ssc8.png</image>
         </screenshot>
     </screenshots>
 
 	<releases>
+
+	    <release version="2.3.0" date="2026-09-13">
+			<url type="details">https://github.com/vani-tty1/memerist/releases/latest/</url>
+			<description>
+			  <p>
+			    This is a stable release with the following changes:
+			  </p>
+				<ul>
+				    <li>New paste from clipboard feature</li>
+				    <li>You can now drag and drop images into an active window to open them</li>
+				    <li>New keyboard shortcut for clearing everything in the editor</li>
+				    <li>Make opacity and rotation slider into a spinner button</li>
+				    <li>increased maximum pen width to 1000px</li>
+				</ul>
+			</description>
+		  </release>
 
 	    <release version="2.2.0" date="2026-09-7">
 			<url type="details">https://github.com/vani-tty1/memerist/releases/latest/</url>

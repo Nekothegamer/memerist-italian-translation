@@ -135,26 +135,18 @@ meme_application_about_action (GSimpleAction *action,
         os_release_content
     );
 
-    dialog = adw_about_dialog_new ();
-
-    adw_about_dialog_set_application_name (ADW_ABOUT_DIALOG (dialog), "Memerist");
+    dialog = adw_about_dialog_new_from_appdata (
+        "/io/github/vani_tty1/memerist/io.github.vani_tty1.memerist.metainfo.xml",
+        PACKAGE_VERSION
+    );
     adw_about_dialog_set_application_icon (ADW_ABOUT_DIALOG (dialog), "io.github.vani_tty1.memerist");
     adw_about_dialog_set_version (ADW_ABOUT_DIALOG (dialog), PACKAGE_VERSION);
-    adw_about_dialog_set_comments (ADW_ABOUT_DIALOG (dialog), "Create memes with text overlays");
-    adw_about_dialog_set_developer_name (ADW_ABOUT_DIALOG (dialog), "Giovanni Rafanan");
-    adw_about_dialog_set_license_type (ADW_ABOUT_DIALOG (dialog), GTK_LICENSE_GPL_3_0);
-    adw_about_dialog_set_copyright (ADW_ABOUT_DIALOG (dialog), "© 2025 Giovanni Rafanan");
+    adw_about_dialog_set_developers (ADW_ABOUT_DIALOG (dialog), developers);
+    adw_about_dialog_set_designers (ADW_ABOUT_DIALOG (dialog), designers);
+    adw_about_dialog_set_debug_info (ADW_ABOUT_DIALOG (dialog), debug_text);
+    adw_about_dialog_set_debug_info_filename (ADW_ABOUT_DIALOG (dialog), "meme-debug.txt");
 
-    adw_about_dialog_set_website (ADW_ABOUT_DIALOG (dialog), "https://github.com/vani-tty1/memerist");
-    adw_about_dialog_set_issue_url (ADW_ABOUT_DIALOG (dialog), "https://github.com/vani-tty1/memerist/issues");
-    adw_about_dialog_set_support_url (ADW_ABOUT_DIALOG (dialog), "https://github.com/vani-tty1/memerist/discussions");
-
-    adw_about_dialog_set_developers(ADW_ABOUT_DIALOG(dialog), developers);
-    adw_about_dialog_set_designers(ADW_ABOUT_DIALOG(dialog), designers);
-    adw_about_dialog_set_debug_info(ADW_ABOUT_DIALOG(dialog), debug_text);
-    adw_about_dialog_set_debug_info_filename(ADW_ABOUT_DIALOG(dialog), "meme-debug.txt");
-
-    adw_dialog_present(dialog, GTK_WIDGET(window));
+    adw_dialog_present (dialog, GTK_WIDGET (window));
 }
 
 

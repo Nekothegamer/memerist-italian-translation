@@ -32,7 +32,8 @@ menu primary_menu {
       label: _("_About Memerist");
       action: "app.about";
     }
-
+  }
+  section{
     item {
       label: _("Quit");
       action: "app.quit";
@@ -423,7 +424,7 @@ template $MemeWindow: Adw.ApplicationWindow {
 
                 adjustment: Adjustment {
                   lower: 2;
-                  upper: 40;
+                  upper: 1000;
                   step-increment: 1;
                 };
 
@@ -1123,7 +1124,7 @@ template $MemeWindow: Adw.ApplicationWindow {
                   digits: 0;
                   adjustment: Adjustment {
                     lower: 2;
-                    upper: 40;
+                    upper: 1000;
                     value: 8;
                     step-increment: 1;
                   };
