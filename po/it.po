@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the memerist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: memerist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-19 10:25+0800\n"
+"PO-Revision-Date: 2026-09-19 13:15+0200\n"
+"Last-Translator: Neko the gamer \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.vani_tty1.memerist.desktop.in:2 src/meme-window.blp:45
+msgid "Memerist"
+msgstr "Memerist"
+
+#: data/io.github.vani_tty1.memerist.desktop.in:3
+msgid "Create memes with custom text overlays"
+msgstr "Crea meme con testi sovrapposti"
+
+#: data/io.github.vani_tty1.memerist.desktop.in:10
+msgid "meme;image;text;caption;overlay;funny;"
+msgstr "meme;immagine;testo;didascalia;overlay;divertente"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:6
+msgid "Window width"
+msgstr "Larghezza finestra"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:7
+msgid "The last width of the application window"
+msgstr "L'ultima larghezza della finestra dell'applicazione"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:12
+msgid "Window height"
+msgstr "Altezza finestra"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:13
+msgid "The last height of the application window"
+msgstr "L'ultima altezza della finestra dell'applicazione"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:18
+msgid "Window maximized state"
+msgstr "Stato massimizzato finestra"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:19
+msgid "Whether the window was maximized on last close"
+msgstr "Determina se la finestra è stata massimizzata prima dell'ultima chiusura"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:24
+msgid "Last export directory"
+msgstr "Ultima cartella esportata"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:25
+msgid "The last directory used to export memes"
+msgstr "L'ultima cartella usata per esportare i meme"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:30
+msgid "Color scheme preference"
+msgstr "Preferenze schema colori"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:31
+msgid "Preferred color scheme: 'light', 'dark', or 'default'"
+msgstr "Schema colori preferito: 'Chiaro', 'Scuro', o 'Default'"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:36
+msgid "Hidden built-in templates"
+msgstr "Template predefiniti nascosti"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:37
+msgid "Resource paths of built-in templates the user has deleted"
+msgstr "Percorsi risorsa dei template inclusi che l'utente ha eliminato"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:42
+msgid "First run welcome dialog dismissed"
+msgstr "Finestra di benvenuto iniziale scartata"
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:43
+msgid ""
+"Whether the first-run welcome dialog has already been shown and dismissed"
+msgstr ""
+"Determina se la finestra di benvenuto iniziale è stata già mostrata e scartata"
+
+#: src/meme-welcome-dialog.c:16
+msgid "Welcome to Memerist"
+msgstr "Benveuto/a su Memerist"
+
+#: src/meme-welcome-dialog.c:17
+msgid "Create and edit memes quickly, right on your desktop or your phone."
+msgstr "Crea e modifica meme velocemente, direttamente sul tuo desktop o telefono."
+
+#: src/meme-welcome-dialog.c:21
+msgid "Start from a Template"
+msgstr "Inizia da un template"
+
+#: src/meme-welcome-dialog.c:22
+msgid ""
+"Pick one of the built-in templates, or import your own image to get going."
+msgstr ""
+"Scegli uno dei template inclusi, o importa un'immagine tua per iniziare"
+
+#: src/meme-welcome-dialog.c:26
+msgid "Add Text & Filters"
+msgstr "Aggiungi testo e filtri"
+
+#: src/meme-welcome-dialog.c:27
+msgid ""
+"Drop in captions, crop and rotate, and apply filters like deep-fry or black "
+"& white."
+msgstr ""
+"Trascina didascalie, ritaglia e ruota, e applica filtri come deep-fry o bianco "
+"e nero."
+
+#: src/meme-welcome-dialog.c:31
+msgid "Export & Share"
+msgstr "Esporta e condividi"
+
+#: src/meme-welcome-dialog.c:32
+msgid ""
+"Export your finished meme as an image, or copy it straight to the clipboard."
+msgstr ""
+"Esporta il tuo meme finito come un'immagine, o copialo direttamente negli appunti."
+
+#: src/meme-welcome-dialog.c:132
+msgid "Get Started"
+msgstr "Inizia"
+
+#: src/meme-welcome-dialog.c:132 src/welcome-dialog.blp:58
+msgid "Next"
+msgstr "Successivo"
+
+#: src/meme-window.blp:22
+msgid "_Keyboard Shortcuts"
+msgstr "_Scorciatoie da tastiera"
+
+#: src/meme-window.blp:27
+msgid "_Show Welcome Dialog"
+msgstr "_Mostra finestra di benvenuto"
+
+#: src/meme-window.blp:32
+msgid "_About Memerist"
+msgstr "_Informazioni su Memerist"
+
+#: src/meme-window.blp:38
+msgid "Quit"
+msgstr "Esci"
+
+#: src/meme-window.blp:85
+msgid "Toggle Sidebar (F9)"
+msgstr "Attiva/disattiva barra laterale (F9)"
+
+#: src/meme-window.blp:91
+msgid "File Options"
+msgstr "Opzioni file"
+
+#: src/meme-window.blp:103
+msgid "Open Base Image"
+msgstr "Apri immagine base"
+
+#: src/meme-window.blp:110
+msgid "Load Project"
+msgstr "Carica progetto"
+
+#: src/meme-window.blp:118
+msgid "Save Project"
+msgstr "Salva progetto"
+
+#: src/meme-window.blp:149
+msgid "Export"
+msgstr "Esporta"
+
+#: src/meme-window.blp:185 src/meme-window.blp:714
+msgid "Add Overlay Image"
+msgstr "Aggiungi immagine sovrapposta"
+
+#: src/meme-window.blp:191 src/meme-window.blp:720
+msgid "Crop & Rotate"
+msgstr "Ritaglia e ruota"
+
+#: src/meme-window.blp:198 src/meme-window.blp:726 src/meme-window.blp:1102
+msgid "Draw"
+msgstr "Disegna"
+
+#: src/meme-window.blp:205 src/meme-window.blp:732
+msgid "Add Text Layer"
+msgstr "Aggiungi livello di testo"
+
+#: src/meme-window.blp:211 src/meme-window.blp:738
+msgid "Copy to Clipboard"
+msgstr "Copia negli appunti"
+
+#: src/meme-window.blp:217 src/meme-window.blp:744
+msgid "Global Filters"
+msgstr "Filtri globali"
+
+#: src/meme-window.blp:231 src/meme-window.blp:758
+msgid "Cinematic"
+msgstr "Cinematico"
+
+#: src/meme-window.blp:232 src/meme-window.blp:759
+msgid "High Contrast"
+msgstr "Contrasto alto"
+
+#: src/meme-window.blp:239 src/meme-window.blp:765
+msgid "Deep Fry"
+msgstr "Deep Fry"
+
+#: src/meme-window.blp:240 src/meme-window.blp:766
+msgid "Ensh*tify"
+msgstr "Enshittify"
+
+#: src/meme-window.blp:251 src/meme-window.blp:776
+msgid "Black & White"
+msgstr "Bianco e nero"
+
+#: src/meme-window.blp:252
+msgid "Make it old school"
+msgstr "Rendilo di vecchia scuola"
+
+#: src/meme-window.blp:263 src/meme-window.blp:787
+msgid "Delete Selected Layer"
+msgstr "Elimina livello selezionato"
+
+#: src/meme-window.blp:280 src/meme-window.blp:803
+msgid "Undo (Ctrl+Z)"
+msgstr "Annulla (Ctrl+Z)"
+
+#: src/meme-window.blp:286 src/meme-window.blp:809
+msgid "Redo (Ctrl+Y)"
+msgstr "Rifai (Ctrl+Y)"
+
+#: src/meme-window.blp:291 src/meme-window.blp:815
+msgid "Zoom In"
+msgstr "Zoom avanti"
+
+#: src/meme-window.blp:297 src/meme-window.blp:821
+msgid "Zoom Out"
+msgstr "Zoom indietro"
+
+#: src/meme-window.blp:307 src/meme-window.blp:827
+msgid "Clear All"
+msgstr "Pulisci tutto"
+
+#: src/meme-window.blp:331 src/meme-window.blp:999
+msgid "Rotate Left"
+msgstr "Ruota a sinistra"
+
+#: src/meme-window.blp:336 src/meme-window.blp:1008
+msgid "Rotate Right"
+msgstr "Ruota a destra"
+
+#: src/meme-window.blp:345 src/meme-window.blp:1026
+msgid "Flip Horizontal"
+msgstr "Capovolgi orizzontalmente"
+
+#: src/meme-window.blp:350 src/meme-window.blp:1035
+msgid "Flip Vertical"
+msgstr "Capovolgi verticalmente"
+
+#: src/meme-window.blp:378 src/meme-window.blp:1079
+msgid "Apply Crop"
+msgstr "Applica ritaglio"
+
+#: src/meme-window.blp:389
+msgid "Cancel Crop"
+msgstr "Cancella ritaglio"
+
+#: src/meme-window.blp:410 src/meme-window.blp:1106
+msgid "Pen Color"
+msgstr "Colore penna"
+
+#: src/meme-window.blp:421 src/meme-window.blp:1119
+msgid "Pen Width"
+msgstr "Largezza penna"
+
+#: src/meme-window.blp:440 src/meme-window.blp:543
+msgid "Done"
+msgstr "Fatto"
+
+#: src/meme-window.blp:481 src/meme-window.blp:864
+msgid "Font"
+msgstr "Font"
+
+#: src/meme-window.blp:488 src/meme-window.blp:892
+msgid "Text Color"
+msgstr "Colore testo"
+
+#: src/meme-window.blp:499 src/meme-window.blp:906
+msgid "Stroke Color"
+msgstr "Colore del tratto"
+
+#: src/meme-window.blp:517
+msgid "Font Size"
+msgstr "Dimensione font"
+
+#: src/meme-window.blp:534
+msgid "Delete Text Layer"
+msgstr "Elimina livello testo"
+
+#: src/meme-window.blp:577
+msgid "Nothing Loaded"
+msgstr "Non è caricato niente"
+
+#: src/meme-window.blp:578
+msgid "Open a file to start editing "
+msgstr "Apri un file per iniziare a modificare "
+
+#: src/meme-window.blp:588
+msgid "Select File"
+msgstr "Seleziona file"
+
+#: src/meme-window.blp:598
+msgid "Paste from Clipboard"
+msgstr "Incolla dagli appunti"
+
+#: src/meme-window.blp:609
+msgid "Select Template"
+msgstr "Seleziona template"
+
+#: src/meme-window.blp:669
+msgid "Back"
+msgstr "Indietro"
+
+#: src/meme-window.blp:695
+msgid "Tools"
+msgstr "Strumenti"
+
+#: src/meme-window.blp:777
+msgid "Black and White"
+msgstr "Bianco e nero"
+
+#: src/meme-window.blp:839
+msgid "Selected Layer"
+msgstr "Livello selezionato"
+
+#: src/meme-window.blp:920
+msgid "Blend Mode"
+msgstr "Modalità di fusione"
+
+#: src/meme-window.blp:926
+msgid "Opacity"
+msgstr "Opacità"
+
+#: src/meme-window.blp:946
+msgid "Rotation"
+msgstr "Rotazione"
+
+#: src/meme-window.blp:967
+msgid "Resources"
+msgstr "Risorse"
+
+#: src/meme-window.blp:969 src/template-window.blp:21
+msgid "Templates"
+msgstr "Template"
+
+#: src/meme-window.blp:970
+msgid "Browse and choose a template image"
+msgstr "Sfoglia e scegli un'immagine template"
+
+#: src/meme-window.blp:987
+msgid "Transform"
+msgstr "Trasforma"
+
+#: src/meme-window.blp:991
+msgid "Rotate"
+msgstr "Ruota"
+
+#: src/meme-window.blp:1018
+msgid "Flip"
+msgstr "Capovolgi"
+
+#: src/meme-window.blp:1089
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/meme-window.blp:1160
+msgid "Exporting GIF.."
+msgstr "Esportazione GIF.."
+
+#: src/meme-window.blp:1165
+msgid "Processing frames, please wait."
+msgstr "Elaborazione frame, attendi."
+
+#: src/shortcuts-dialog.blp:7
+msgid "General"
+msgstr "Generali"
+
+#: src/shortcuts-dialog.blp:10
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Esci"
+
+#: src/shortcuts-dialog.blp:16
+msgctxt "shortcut window"
+msgid "Toggle Left Panel"
+msgstr "Attiva/disattiva pannello a sinistra"
+
+#: src/shortcuts-dialog.blp:22
+msgid "Editing"
+msgstr "Modifica"
+
+#: src/shortcuts-dialog.blp:25
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr "Annulla"
+
+#: src/shortcuts-dialog.blp:30
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr "Rifai"
+
+#: src/shortcuts-dialog.blp:35
+msgctxt "shortcut window"
+msgid "Save Project"
+msgstr "Salva progetto"
+
+#: src/shortcuts-dialog.blp:40
+msgctxt "shortcut window"
+msgid "Copy to Clipboard"
+msgstr "Copia negli appunti"
+
+#: src/shortcuts-dialog.blp:45
+msgctxt "shortcuts window"
+msgid "Export"
+msgstr "Esporta"
+
+#: src/shortcuts-dialog.blp:49
+msgctxt "shortcuts window"
+msgid "Clear All"
+msgstr "Pulisci tutto"
+
+#: src/template-window.blp:27
+msgid "Import Template"
+msgstr "Importa template"
+
+#: src/template-window.blp:31
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+#: src/template-window.blp:37
+msgid "Manage Templates"
+msgstr "Gestisci template"
+
+#: src/template-window.blp:42
+msgid "Restore Built-in Templates"
+msgstr "Ripristina i template inclusi"
+
+#: src/template-window.blp:47
+msgid "Delete Selected Templates"
+msgstr "Elimina i template selezionati"
+
+#: src/template-window.blp:81
+msgid "No Templates"
+msgstr "Nessun template"
+
+#: src/template-window.blp:82
+msgid "There is nothing here bozo"
+msgstr "Non c'è niente qui buffone"
+
+#: src/theme-switcher.blp:16
+msgid "Follow System Style"
+msgstr "Segui lo stile di sistema"
+
+#: src/theme-switcher.blp:38
+msgid "Light Style"
+msgstr "Stile chiaro"
+
+#: src/theme-switcher.blp:60
+msgid "Dark Style"
+msgstr "Stile scuro"
+
+#: src/welcome-dialog.blp:5
+msgid "Welcome"
+msgstr "Benvenuto/a"
+
+#: src/welcome-dialog.blp:18
+msgid "Skip"
+msgstr "Salta"
+
+#: src/welcome-dialog.blp:47
+msgid "Previous"
+msgstr "Precedente"
