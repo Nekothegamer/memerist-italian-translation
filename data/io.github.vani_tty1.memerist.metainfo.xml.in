@@ -4,11 +4,10 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>GPL-3.0-or-later</project_license>
     <name>Memerist</name>
-    <summary>Create, edit and export memes with ease</summary>
+    <summary>Create, edit, and export memes with ease</summary>
     <description>
         <p>
-        A simple and modern meme editor for Linux with a focus on getting a meme out fast,
-        from a template or your own image.
+        A simple and modern meme editor.
         </p>
         <p>Features:</p>
         <ul>
@@ -98,6 +97,18 @@
     </screenshots>
 
 	<releases>
+
+	    	<release version="2.3.1" date="2026-09-19">
+			<url type="details">https://github.com/vani-tty1/memerist/releases/latest/</url>
+			<description>
+			  <p>
+			    This is a stable release with the following changes:
+			  </p>
+				<ul>
+				    <li>Update to latest GNOME 51 runtime</li>
+				</ul>
+			</description>
+		  </release>
 
 	    <release version="2.3.0" date="2026-09-13">
 			<url type="details">https://github.com/vani-tty1/memerist/releases/latest/</url>
