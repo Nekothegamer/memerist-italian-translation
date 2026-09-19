@@ -74,6 +74,10 @@ clean-all:
 reconfigure:
 	meson setup --reconfigure $(BUILD)
 
+test: all
+	appstreamcli validate build/data/io.github.vani_tty1.memerist.metainfo.xml
+	desktop-file-validate build/data/io.github.vani_tty1.memerist.desktop
+
 
 help:
 	@echo "Targets: all (debug), release, run, run-release, test, install, dist, clean, clean-all, reconfigure, fmt, check-deps"
