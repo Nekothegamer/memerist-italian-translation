@@ -8,17 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: memerist\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-19 07:40+0800\n"
+"POT-Creation-Date: 2026-09-19 10:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/io.github.vani_tty1.memerist.desktop.in:2
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:6 src/meme-window.blp:45
+#: data/io.github.vani_tty1.memerist.desktop.in:2 src/meme-window.blp:45
 msgid "Memerist"
 msgstr ""
 
@@ -85,306 +84,6 @@ msgstr ""
 #: data/io.github.vani_tty1.memerist.gschema.xml:43
 msgid ""
 "Whether the first-run welcome dialog has already been shown and dismissed"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:7
-msgid "Create, edit and export memes with ease"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:9
-msgid ""
-"A simple and modern meme editor for Linux with a focus on getting a meme out "
-"fast, from a template or your own image."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:13
-msgid "Features:"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:15
-msgid "Text and Image layers"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:16
-msgid "Real-time preview as you type"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:17
-msgid "Add Filters"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:18
-msgid "GIF support"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:19
-msgid "Transform tool"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:20
-msgid "Freehand annotation tool"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:21
-msgid "Let it Happen"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:25
-msgid "Giovanni Rafanan"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:49
-msgid "GTK"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:50
-msgid "VectorGraphics"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:67
-msgid "Main window"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:71
-msgid "Live Preview"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:75
-msgid "Crop"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:79 src/meme-window.blp:198
-#: src/meme-window.blp:726 src/meme-window.blp:1102
-msgid "Draw"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:83
-msgid "Built in Templates"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:87
-msgid "Narrow Window"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:91
-msgid "Template Narrow Window"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:95
-msgid "Crop Narrow Window"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:105
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:121
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:139
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:153
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:172
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:186
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:201
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:215
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:229
-msgid "This is a stable release with the following changes:"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:109
-msgid "New paste from clipboard feature"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:110
-msgid "You can now drag and drop images into an active window to open them"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:111
-msgid "New keyboard shortcut for clearing everything in the editor"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:112
-msgid "Make opacity and rotation slider into a spinner button"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:113
-msgid "increased maximum pen width to 1000px"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:125
-msgid "Markup can no longer be selected as layers"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:126
-msgid "New Redo and Undo buttons"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:127
-msgid "Update to latest ImageMagick"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:128
-msgid "Improve screen size adaptability"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:129
-msgid "Fixed signal block leak"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:130
-msgid "Fixed stale text/color preview"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:131
-msgid "Fixed silent file loading errors"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:143
-msgid "New Freehand drawing tool"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:144
-msgid "GIF's can now be imported in templates"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:145
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:220
-msgid "Minor UI Adjustments"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:157
-msgid "New welcome screen."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:158
-msgid "Update to latest ImageMagick."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:159
-msgid "Templates are now in its separate window."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:160
-msgid "Improve template management."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:161
-msgid "Built-in templates are now deletable but can also be restored."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:162
-msgid "GIF's are now displayed and animated correctly in the preview."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:163
-msgid "Fixed double shadow appearing in the app icon in about_dialog."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:176
-msgid "Redesigned crop overlay"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:177
-msgid "Improve crop overlay smoothness when draggin"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:185
-msgid "We reached version 1.0.0 yehey🥳!"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:190
-msgid "UI Overhaul. The UI is greatly overhauled to make it more organized."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:191
-msgid "UI now adapts better to different screen sizes/devices."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:192
-msgid ""
-"Fixed a bug where you cannot exit template selection on narrow window mode."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:193
-msgid ""
-"Support for opening files from the File Manager(e.g., Nautilus, Thunar, "
-"Dolphin) using the \"Open With\" option."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:203
-msgid "New Black and White filter."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:204
-msgid "Replace deprecated GdkPixbufAnimation with MagicWand."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:205
-msgid "Reworked Export dialog."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:206
-msgid "Plug leaks."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:207
-msgid "UI Adjustments"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:217
-msgid "Better support for small screens such as phones and small window sizes."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:218
-msgid "New GNOME HIG compliant theme switchers."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:219
-msgid "Added Cancel Crop Button, automatically reverts image to before crop."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:221
-msgid "Update ImageMagick to latest upstream."
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:231
-msgid "Migrated image filters to MagickWand"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:232
-msgid ""
-"Fixed tearing and generation loss when adding too many layers on a high res "
-"base image"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:233
-msgid "Total rewrite of renderer"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:234
-msgid "Improve dragging smoothness of image layers on a high res base image"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:235
-msgid "Make recently imported templates appear at the top of the list"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:236
-msgid ""
-"Fixed use-after-free which causes the app to crash when saving a project"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:244
-msgid "This is a stable release with following changes:"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:246
-msgid "optimize GIF processing with in-memory MagickWand"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:247
-msgid ""
-"Fixed dropped frames during GIF export by correctly advancing the animation "
-"clock"
-msgstr ""
-
-#: data/io.github.vani_tty1.memerist.metainfo.xml.in:248
-msgid "organize file operations in a single drop down menu"
 msgstr ""
 
 #: src/meme-welcome-dialog.c:16
@@ -477,6 +176,10 @@ msgstr ""
 
 #: src/meme-window.blp:191 src/meme-window.blp:720
 msgid "Crop & Rotate"
+msgstr ""
+
+#: src/meme-window.blp:198 src/meme-window.blp:726 src/meme-window.blp:1102
+msgid "Draw"
 msgstr ""
 
 #: src/meme-window.blp:205 src/meme-window.blp:732
