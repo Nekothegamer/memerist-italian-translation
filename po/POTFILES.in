@@ -1,11 +1,13 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 data/io.github.vani_tty1.memerist.desktop.in
-data/io.github.vani_tty1.memerist.metainfo.xml.in
 data/io.github.vani_tty1.memerist.gschema.xml
+data/io.github.vani_tty1.memerist.metainfo.xml.in
 src/main.c
+src/meme-welcome-dialog.c
+src/meme-window.blp
 src/meme-window.c
-src/meme-window.ui
-src/primary-menu.ui
-src/shortcuts-dialog.ui
-src/template-window.ui
+src/shortcuts-dialog.blp
+src/template-window.blp
+src/theme-switcher.blp
+src/welcome-dialog.blp

@@ -1,0 +1,780 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the memerist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: memerist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-19 07:40+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.github.vani_tty1.memerist.desktop.in:2
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:6 src/meme-window.blp:45
+msgid "Memerist"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.desktop.in:3
+msgid "Create memes with custom text overlays"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.desktop.in:10
+msgid "meme;image;text;caption;overlay;funny;"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:6
+msgid "Window width"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:7
+msgid "The last width of the application window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:12
+msgid "Window height"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:13
+msgid "The last height of the application window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:18
+msgid "Window maximized state"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:19
+msgid "Whether the window was maximized on last close"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:24
+msgid "Last export directory"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:25
+msgid "The last directory used to export memes"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:30
+msgid "Color scheme preference"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:31
+msgid "Preferred color scheme: 'light', 'dark', or 'default'"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:36
+msgid "Hidden built-in templates"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:37
+msgid "Resource paths of built-in templates the user has deleted"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:42
+msgid "First run welcome dialog dismissed"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.gschema.xml:43
+msgid ""
+"Whether the first-run welcome dialog has already been shown and dismissed"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:7
+msgid "Create, edit and export memes with ease"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:9
+msgid ""
+"A simple and modern meme editor for Linux with a focus on getting a meme out "
+"fast, from a template or your own image."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:13
+msgid "Features:"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:15
+msgid "Text and Image layers"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:16
+msgid "Real-time preview as you type"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:17
+msgid "Add Filters"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:18
+msgid "GIF support"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:19
+msgid "Transform tool"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:20
+msgid "Freehand annotation tool"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:21
+msgid "Let it Happen"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:25
+msgid "Giovanni Rafanan"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:49
+msgid "GTK"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:50
+msgid "VectorGraphics"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:67
+msgid "Main window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:71
+msgid "Live Preview"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:75
+msgid "Crop"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:79 src/meme-window.blp:198
+#: src/meme-window.blp:726 src/meme-window.blp:1102
+msgid "Draw"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:83
+msgid "Built in Templates"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:87
+msgid "Narrow Window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:91
+msgid "Template Narrow Window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:95
+msgid "Crop Narrow Window"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:105
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:121
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:139
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:153
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:172
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:186
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:201
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:215
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:229
+msgid "This is a stable release with the following changes:"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:109
+msgid "New paste from clipboard feature"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:110
+msgid "You can now drag and drop images into an active window to open them"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:111
+msgid "New keyboard shortcut for clearing everything in the editor"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:112
+msgid "Make opacity and rotation slider into a spinner button"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:113
+msgid "increased maximum pen width to 1000px"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:125
+msgid "Markup can no longer be selected as layers"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:126
+msgid "New Redo and Undo buttons"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:127
+msgid "Update to latest ImageMagick"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:128
+msgid "Improve screen size adaptability"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:129
+msgid "Fixed signal block leak"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:130
+msgid "Fixed stale text/color preview"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:131
+msgid "Fixed silent file loading errors"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:143
+msgid "New Freehand drawing tool"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:144
+msgid "GIF's can now be imported in templates"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:145
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:220
+msgid "Minor UI Adjustments"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:157
+msgid "New welcome screen."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:158
+msgid "Update to latest ImageMagick."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:159
+msgid "Templates are now in its separate window."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:160
+msgid "Improve template management."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:161
+msgid "Built-in templates are now deletable but can also be restored."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:162
+msgid "GIF's are now displayed and animated correctly in the preview."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:163
+msgid "Fixed double shadow appearing in the app icon in about_dialog."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:176
+msgid "Redesigned crop overlay"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:177
+msgid "Improve crop overlay smoothness when draggin"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:185
+msgid "We reached version 1.0.0 yehey🥳!"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:190
+msgid "UI Overhaul. The UI is greatly overhauled to make it more organized."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:191
+msgid "UI now adapts better to different screen sizes/devices."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:192
+msgid ""
+"Fixed a bug where you cannot exit template selection on narrow window mode."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:193
+msgid ""
+"Support for opening files from the File Manager(e.g., Nautilus, Thunar, "
+"Dolphin) using the \"Open With\" option."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:203
+msgid "New Black and White filter."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:204
+msgid "Replace deprecated GdkPixbufAnimation with MagicWand."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:205
+msgid "Reworked Export dialog."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:206
+msgid "Plug leaks."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:207
+msgid "UI Adjustments"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:217
+msgid "Better support for small screens such as phones and small window sizes."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:218
+msgid "New GNOME HIG compliant theme switchers."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:219
+msgid "Added Cancel Crop Button, automatically reverts image to before crop."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:221
+msgid "Update ImageMagick to latest upstream."
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:231
+msgid "Migrated image filters to MagickWand"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:232
+msgid ""
+"Fixed tearing and generation loss when adding too many layers on a high res "
+"base image"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:233
+msgid "Total rewrite of renderer"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:234
+msgid "Improve dragging smoothness of image layers on a high res base image"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:235
+msgid "Make recently imported templates appear at the top of the list"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:236
+msgid ""
+"Fixed use-after-free which causes the app to crash when saving a project"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:244
+msgid "This is a stable release with following changes:"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:246
+msgid "optimize GIF processing with in-memory MagickWand"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:247
+msgid ""
+"Fixed dropped frames during GIF export by correctly advancing the animation "
+"clock"
+msgstr ""
+
+#: data/io.github.vani_tty1.memerist.metainfo.xml.in:248
+msgid "organize file operations in a single drop down menu"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:16
+msgid "Welcome to Memerist"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:17
+msgid "Create and edit memes quickly, right on your desktop or your phone."
+msgstr ""
+
+#: src/meme-welcome-dialog.c:21
+msgid "Start from a Template"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:22
+msgid ""
+"Pick one of the built-in templates, or import your own image to get going."
+msgstr ""
+
+#: src/meme-welcome-dialog.c:26
+msgid "Add Text & Filters"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:27
+msgid ""
+"Drop in captions, crop and rotate, and apply filters like deep-fry or black "
+"& white."
+msgstr ""
+
+#: src/meme-welcome-dialog.c:31
+msgid "Export & Share"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:32
+msgid ""
+"Export your finished meme as an image, or copy it straight to the clipboard."
+msgstr ""
+
+#: src/meme-welcome-dialog.c:132
+msgid "Get Started"
+msgstr ""
+
+#: src/meme-welcome-dialog.c:132 src/welcome-dialog.blp:58
+msgid "Next"
+msgstr ""
+
+#: src/meme-window.blp:22
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: src/meme-window.blp:27
+msgid "_Show Welcome Dialog"
+msgstr ""
+
+#: src/meme-window.blp:32
+msgid "_About Memerist"
+msgstr ""
+
+#: src/meme-window.blp:38
+msgid "Quit"
+msgstr ""
+
+#: src/meme-window.blp:85
+msgid "Toggle Sidebar (F9)"
+msgstr ""
+
+#: src/meme-window.blp:91
+msgid "File Options"
+msgstr ""
+
+#: src/meme-window.blp:103
+msgid "Open Base Image"
+msgstr ""
+
+#: src/meme-window.blp:110
+msgid "Load Project"
+msgstr ""
+
+#: src/meme-window.blp:118
+msgid "Save Project"
+msgstr ""
+
+#: src/meme-window.blp:149
+msgid "Export"
+msgstr ""
+
+#: src/meme-window.blp:185 src/meme-window.blp:714
+msgid "Add Overlay Image"
+msgstr ""
+
+#: src/meme-window.blp:191 src/meme-window.blp:720
+msgid "Crop & Rotate"
+msgstr ""
+
+#: src/meme-window.blp:205 src/meme-window.blp:732
+msgid "Add Text Layer"
+msgstr ""
+
+#: src/meme-window.blp:211 src/meme-window.blp:738
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: src/meme-window.blp:217 src/meme-window.blp:744
+msgid "Global Filters"
+msgstr ""
+
+#: src/meme-window.blp:231 src/meme-window.blp:758
+msgid "Cinematic"
+msgstr ""
+
+#: src/meme-window.blp:232 src/meme-window.blp:759
+msgid "High Contrast"
+msgstr ""
+
+#: src/meme-window.blp:239 src/meme-window.blp:765
+msgid "Deep Fry"
+msgstr ""
+
+#: src/meme-window.blp:240 src/meme-window.blp:766
+msgid "Ensh*tify"
+msgstr ""
+
+#: src/meme-window.blp:251 src/meme-window.blp:776
+msgid "Black & White"
+msgstr ""
+
+#: src/meme-window.blp:252
+msgid "Make it old school"
+msgstr ""
+
+#: src/meme-window.blp:263 src/meme-window.blp:787
+msgid "Delete Selected Layer"
+msgstr ""
+
+#: src/meme-window.blp:280 src/meme-window.blp:803
+msgid "Undo (Ctrl+Z)"
+msgstr ""
+
+#: src/meme-window.blp:286 src/meme-window.blp:809
+msgid "Redo (Ctrl+Y)"
+msgstr ""
+
+#: src/meme-window.blp:291 src/meme-window.blp:815
+msgid "Zoom In"
+msgstr ""
+
+#: src/meme-window.blp:297 src/meme-window.blp:821
+msgid "Zoom Out"
+msgstr ""
+
+#: src/meme-window.blp:307 src/meme-window.blp:827
+msgid "Clear All"
+msgstr ""
+
+#: src/meme-window.blp:331 src/meme-window.blp:999
+msgid "Rotate Left"
+msgstr ""
+
+#: src/meme-window.blp:336 src/meme-window.blp:1008
+msgid "Rotate Right"
+msgstr ""
+
+#: src/meme-window.blp:345 src/meme-window.blp:1026
+msgid "Flip Horizontal"
+msgstr ""
+
+#: src/meme-window.blp:350 src/meme-window.blp:1035
+msgid "Flip Vertical"
+msgstr ""
+
+#: src/meme-window.blp:378 src/meme-window.blp:1079
+msgid "Apply Crop"
+msgstr ""
+
+#: src/meme-window.blp:389
+msgid "Cancel Crop"
+msgstr ""
+
+#: src/meme-window.blp:410 src/meme-window.blp:1106
+msgid "Pen Color"
+msgstr ""
+
+#: src/meme-window.blp:421 src/meme-window.blp:1119
+msgid "Pen Width"
+msgstr ""
+
+#: src/meme-window.blp:440 src/meme-window.blp:543
+msgid "Done"
+msgstr ""
+
+#: src/meme-window.blp:481 src/meme-window.blp:864
+msgid "Font"
+msgstr ""
+
+#: src/meme-window.blp:488 src/meme-window.blp:892
+msgid "Text Color"
+msgstr ""
+
+#: src/meme-window.blp:499 src/meme-window.blp:906
+msgid "Stroke Color"
+msgstr ""
+
+#: src/meme-window.blp:517
+msgid "Font Size"
+msgstr ""
+
+#: src/meme-window.blp:534
+msgid "Delete Text Layer"
+msgstr ""
+
+#: src/meme-window.blp:577
+msgid "Nothing Loaded"
+msgstr ""
+
+#: src/meme-window.blp:578
+msgid "Open a file to start editing "
+msgstr ""
+
+#: src/meme-window.blp:588
+msgid "Select File"
+msgstr ""
+
+#: src/meme-window.blp:598
+msgid "Paste from Clipboard"
+msgstr ""
+
+#: src/meme-window.blp:609
+msgid "Select Template"
+msgstr ""
+
+#: src/meme-window.blp:669
+msgid "Back"
+msgstr ""
+
+#: src/meme-window.blp:695
+msgid "Tools"
+msgstr ""
+
+#: src/meme-window.blp:777
+msgid "Black and White"
+msgstr ""
+
+#: src/meme-window.blp:839
+msgid "Selected Layer"
+msgstr ""
+
+#: src/meme-window.blp:920
+msgid "Blend Mode"
+msgstr ""
+
+#: src/meme-window.blp:926
+msgid "Opacity"
+msgstr ""
+
+#: src/meme-window.blp:946
+msgid "Rotation"
+msgstr ""
+
+#: src/meme-window.blp:967
+msgid "Resources"
+msgstr ""
+
+#: src/meme-window.blp:969 src/template-window.blp:21
+msgid "Templates"
+msgstr ""
+
+#: src/meme-window.blp:970
+msgid "Browse and choose a template image"
+msgstr ""
+
+#: src/meme-window.blp:987
+msgid "Transform"
+msgstr ""
+
+#: src/meme-window.blp:991
+msgid "Rotate"
+msgstr ""
+
+#: src/meme-window.blp:1018
+msgid "Flip"
+msgstr ""
+
+#: src/meme-window.blp:1089
+msgid "Cancel"
+msgstr ""
+
+#: src/meme-window.blp:1160
+msgid "Exporting GIF.."
+msgstr ""
+
+#: src/meme-window.blp:1165
+msgid "Processing frames, please wait."
+msgstr ""
+
+#: src/shortcuts-dialog.blp:7
+msgid "General"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:10
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:16
+msgctxt "shortcut window"
+msgid "Toggle Left Panel"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:22
+msgid "Editing"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:25
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:30
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:35
+msgctxt "shortcut window"
+msgid "Save Project"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:40
+msgctxt "shortcut window"
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:45
+msgctxt "shortcuts window"
+msgid "Export"
+msgstr ""
+
+#: src/shortcuts-dialog.blp:49
+msgctxt "shortcuts window"
+msgid "Clear All"
+msgstr ""
+
+#: src/template-window.blp:27
+msgid "Import Template"
+msgstr ""
+
+#: src/template-window.blp:31
+msgid "Select All"
+msgstr ""
+
+#: src/template-window.blp:37
+msgid "Manage Templates"
+msgstr ""
+
+#: src/template-window.blp:42
+msgid "Restore Built-in Templates"
+msgstr ""
+
+#: src/template-window.blp:47
+msgid "Delete Selected Templates"
+msgstr ""
+
+#: src/template-window.blp:81
+msgid "No Templates"
+msgstr ""
+
+#: src/template-window.blp:82
+msgid "There is nothing here bozo"
+msgstr ""
+
+#: src/theme-switcher.blp:16
+msgid "Follow System Style"
+msgstr ""
+
+#: src/theme-switcher.blp:38
+msgid "Light Style"
+msgstr ""
+
+#: src/theme-switcher.blp:60
+msgid "Dark Style"
+msgstr ""
+
+#: src/welcome-dialog.blp:5
+msgid "Welcome"
+msgstr ""
+
+#: src/welcome-dialog.blp:18
+msgid "Skip"
+msgstr ""
+
+#: src/welcome-dialog.blp:47
+msgid "Previous"
+msgstr ""

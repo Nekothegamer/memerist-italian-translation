@@ -1,1 +1,1 @@
-i18n.gettext('myapp', preset: 'glib')
+i18n.gettext('memerist', preset: 'glib')
